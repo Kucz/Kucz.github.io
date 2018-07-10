@@ -11,7 +11,7 @@
 
     <title>
         
-        Tags - Zhen&#39;s Blog
+        MVVM and RAC - Zhen&#39;s Blog
         
     </title>
 
@@ -59,7 +59,7 @@
                     <span>主页</span>
                 </a>
             </li>
-            <li  class=active >
+            <li >
                 <a href="/tags">
                     <i class="iconfont icon-biaoqian1"></i>
                     <span>标签</span>
@@ -88,6 +88,10 @@
         </ul>
     </div>
     
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#MVVM模式与RAC"><span class="toc-text">MVVM模式与RAC</span></a></li></ol>
+</div>
+    
 </div>
 
 
@@ -110,36 +114,35 @@
     
     <div class="index-middle">
         <!-- Main Content -->
-        <div id='tag_cloud' class="tags">
-    
-    <a href="#iOS" title="iOS" rel="1">iOS</a>
-    
-</div>
-
-<!-- 标签列表 -->
+        
 
 
-<div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="iOS">
-                    <span class="tag-text">iOS</span>
-                </span>
-    
-    <!-- <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
-    <div class="post-preview">
-        <a href="/2018/07/10/MVVM-and-RAC/">
-            <h2 class="post-title">
-                MVVM and RAC
-            </h2>
-            
-        </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+<div class="post-container">
+    <div class="post-title">
+        MVVM and RAC
     </div>
-    
-</div>
 
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2018-07-10 13:46:58</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#iOS" title="iOS">iOS</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content ">
+        <h2 id="MVVM模式与RAC"><a href="#MVVM模式与RAC" class="headerlink" title="MVVM模式与RAC"></a>MVVM模式与RAC</h2>
+        
+        <div id="comment-container">
+        </div>
+    </div>
+</div>
     </div>
 </div>
 
@@ -178,10 +181,24 @@
     // We expose some of the variables needed by the front end
     window.hexo_search_path = "search.json"
     window.hexo_root = "/"
-    window.isPost = false
+    window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'MVVM and RAC',
+        owner: 'Kucz',
+        repo: 'Kucz.github.io',
+        oauth: {
+            client_id: 'cef955c854ea2030d64e',
+            client_secret: '0f5d80b0d20fd69d6bce6dbd74388bda64c3af49',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
