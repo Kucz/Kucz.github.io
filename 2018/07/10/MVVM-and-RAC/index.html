@@ -137,7 +137,7 @@
 </span>
     </div>
     <div class="post-content ">
-        <h2 id="MVVM模式与RAC"><a href="#MVVM模式与RAC" class="headerlink" title="MVVM模式与RAC"></a>MVVM模式与RAC</h2><p>  MVVM 是 MVC 模式的一种演进，它主要解决了 <strong>ViewController</strong> 过于臃肿带来的不易维护和测试的问题。其中 <strong>ViewModel</strong> 的主要职 责是处理业务逻辑并提供 <strong>View</strong> 所需的数据，这样 VC 就不用关心业务，自然也就瘦了下来。<strong>ViewModel</strong> 只关心业务数据不关心 <strong>View</strong>，所以不会与 <strong>View</strong> 产生耦合，也就更方便进行单元测试。</p>
+        <h2 id="MVVM模式与RAC"><a href="#MVVM模式与RAC" class="headerlink" title="MVVM模式与RAC"></a>MVVM模式与RAC</h2><p>  <strong>MVVM</strong> 是 <strong>MVC</strong> 模式的一种演进，它主要解决了 <strong>ViewController</strong> 过于臃肿带来的不易维护和测试的问题。其中 <strong>ViewModel</strong> 的主要职 责是处理业务逻辑并提供 <strong>View</strong> 所需的数据，这样 VC 就不用关心业务，自然也就瘦了下来。<strong>ViewModel</strong> 只关心业务数据不关心 <strong>View</strong>，所以不会与 <strong>View</strong> 产生耦合，也就更方便进行单元测试。</p>
 <p>  <strong>View</strong> 是一个壳，它所呈现的内容都需要由 <strong>ViewModel</strong> 来提供，而 <strong>View</strong> 又不与 <strong>ViewModel</strong> 直接沟通，这时就需要 <strong>ViewController</strong> 来做中间的协调者。<br><strong>ViewController</strong> 持有 <strong>View</strong>和 <strong>ViewModel</strong>，当 <strong>VC</strong>初始化时，会让 <strong>ViewModel</strong> 去取数据，简单来说就是调用 <strong>VM</strong> 的某个获取数据的方法。</p>
 <p>  使用 <strong>MVVM</strong> 最舒服的姿势是搭配 <strong>ReactiveCocoa</strong>。不过它的问题在于学习成本和维护成本比较高，在小团队中或许还可以尝试，当开发人员数量较多时就很难推起来了。这也是我们今天要讲的主题：如何不借助 <strong>ReactiveCocoa</strong> 来实现 <strong>MVVM</strong>。</p>
 <hr>
