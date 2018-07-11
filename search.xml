@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title>第一篇博客</title>
+      <link href="/2018/07/11/Prolusion/"/>
+      <url>/2018/07/11/Prolusion/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>MVVM 与 ReactiveCocoa</title>
       <link href="/2018/07/10/MVVM-and-RAC/"/>
       <url>/2018/07/10/MVVM-and-RAC/</url>
@@ -10,7 +25,7 @@
       
       <categories>
           
-          <category> iOS </category>
+          <category> IOS </category>
           
       </categories>
       
