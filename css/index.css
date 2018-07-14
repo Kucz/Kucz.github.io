@@ -19,7 +19,7 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   min-height: 100%;
-  color: #4c4948;
+  color: #e5e5e5;
   font-size: 14px;
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2;
@@ -734,7 +734,7 @@ footer {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     padding-left: 0.6rem;
-    color: #4c4948;
+    color: #e5e5e5;
     text-shadow: none;
     font-size: 0.8rem;
   }
@@ -992,7 +992,7 @@ footer {
 .article-sort-item__title {
   display: block;
   margin-left: 5rem;
-  color: #4c4948;
+  color: #e5e5e5;
   text-decoration: none;
   font-size: 0.8rem;
   cursor: pointer;
@@ -1005,7 +1005,7 @@ footer {
   font-size: 1.8rem;
 }
 .category-list a {
-  color: #4c4948;
+  color: #e5e5e5;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1908,7 +1908,7 @@ img:hover {
 }
 #local-search .local-search__hit-item a {
   display: block;
-  color: #4c4948;
+  color: #e5e5e5;
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
