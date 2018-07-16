@@ -54,6 +54,18 @@ h6 {
   -ms-flex: 1 auto;
   flex: 1 auto;
 }
+#busuanzi_value_site_uv {
+  color: #00ff7f;
+  font-weight: bold;
+}
+#busuanzi_value_site_pv {
+  color: #00ff7f;
+  font-weight: bold;
+}
+#busuanzi_value_page_pv {
+  color: #00ff7f;
+  font-weight: bold;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
