@@ -880,19 +880,19 @@ footer {
   display: block;
 }
 .recent-post-item .article-creative-ower {
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 0.3rem;
   text-decoration: none;
   color: #0fc9e7;
 }
 .recent-post-item .article-creative-reprint {
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 0.3rem;
   text-decoration: none;
   color: #4756ca;
 }
 .recent-post-item .article-creative-other {
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin-bottom: 0.3rem;
   text-decoration: none;
   color: #3186b2;
