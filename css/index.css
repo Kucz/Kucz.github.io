@@ -876,8 +876,28 @@ footer {
 .recent-post-item .more:hover {
   background: #000;
 }
-.recent-post-item .article-title {
+.recent-post-item .article-ower-type {
   display: block;
+}
+.recent-post-item .article-creative-ower {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  color: #0fc9e7;
+}
+.recent-post-item .article-creative-reprint {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  color: #4756ca;
+}
+.recent-post-item .article-creative-other {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  text-decoration: none;
+  color: #3186b2;
+}
+.recent-post-item .article-title {
   margin-bottom: 0.3rem;
   border-bottom: 1px solid #eee;
   color: #2e2e2e;
@@ -1245,6 +1265,7 @@ footer {
 #top-container #post-title {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-size: 1.3rem;
+  color: #60efb8;
 }
 #top-container i.fa.fa-angle-right {
   margin: 0 0.3rem 0 0.2rem;
