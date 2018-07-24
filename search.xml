@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>JavaScript正则表达式</title>
+      <link href="/2018/07/20/JavaScript%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+      <url>/2018/07/20/JavaScript%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+      <content type="html"><![CDATA[<h3 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h3><p><strong><em>正则表达式</em></strong>，又称规则表达式。（英语：Regular Expression，在代码中常简写为regex、regexp或RE），计算机科学的一个概念。正则表达式通常被用来检索、替换那些符合某个模式(规则)的文本。</p><p>### </p>]]></content>
+      
+      <categories>
+          
+          <category> JS开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JS正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>真机调试包</title>
       <link href="/2018/07/14/%E7%9C%9F%E6%9C%BA%E8%B0%83%E8%AF%95%E5%8C%85/"/>
       <url>/2018/07/14/%E7%9C%9F%E6%9C%BA%E8%B0%83%E8%AF%95%E5%8C%85/</url>

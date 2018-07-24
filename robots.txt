@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kucz.github.io/sitemap.xml
+Sitemap: https://kucz.github.io/baidusitemap.xml
